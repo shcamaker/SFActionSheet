@@ -1,0 +1,16 @@
+PODS:
+  - SFActionSheet (0.1.0)
+
+DEPENDENCIES:
+  - SFActionSheet (from `../`)
+
+EXTERNAL SOURCES:
+  SFActionSheet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SFActionSheet: 991b2eff6d520ac1f3863016d29fc915935f2915
+
+PODFILE CHECKSUM: 1a7b6061e9b97c6390d1ad41e72bc8a59a3aa701
+
+COCOAPODS: 1.8.3

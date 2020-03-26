@@ -1,0 +1,22 @@
+{
+  "name": "SFActionSheet",
+  "version": "0.1.0",
+  "summary": "A short description of SFActionSheet.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shcamaker/SFActionSheet",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shcamaker": "alex.shen@wesoft.com"
+  },
+  "source": {
+    "git": "https://github.com/shcamaker/SFActionSheet.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SFActionSheet/Classes/**/*"
+}
