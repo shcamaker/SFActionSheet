@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SFActionSheet_Example' do
+  pod 'SFActionSheet', :path => '../'
+
+  target 'SFActionSheet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
