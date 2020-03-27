@@ -8,17 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, actionSheetDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func click(_ sender: Any) {
+        let sheet = actionSheet(frame: view.bounds) { sheet in
+            sheet.cancel()
+            print("confirm")
+        }
+        sheet.delegate = self
+        view.addSubview(sheet)
+    }
+    
+    func numberOfRows() -> Int {
+        return 3
     }
 
+    func titleForRow(InRow row: Int) -> String {
+        return "ceshi"
+    }
 }
 
